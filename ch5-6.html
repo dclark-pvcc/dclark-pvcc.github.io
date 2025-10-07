@@ -1,0 +1,190 @@
+<!DOCTYPE = html>
+<!-- NAME: Dylan Clark
+Chapter 5-6 Terms
+-->
+<html lang = "en">
+    <body style ="color: #000000; background-color: #b32e2e; font-family: tahoma, verdana; " >
+<style>
+table, th, td {
+  border:1px solid rgb(22, 0, 0);
+  border-collapse: collapse;
+}
+</style>
+<body>
+
+<table>
+    <table style="width:100%">
+  <h2>Chapter 5: Computer Systems Organization</h2>
+        <tr>
+    <th colspan="1">Dylan Clark</th>
+  </tr>
+  <tr>
+    <td>Von Neumann computer architecture, 4 major subsystems:
+    <ol>
+        <li>Memory</li>
+        <li>Input/Output</li>
+        <li>Arithmetic/Logic Unit (ALU)</li>
+        <li>Control Unit</li> 
+    </ol>
+    </td>
+  </tr>
+</table>
+    </body>
+    <table>
+    <table style="width:100%">
+  <tr>
+    <td>Von Neumann computer architecture, 3 characteristics:
+    <ol>
+        <li>Four major subsystems.</li>
+        <li>The stored program concept.</li>
+        <li>The sequential execution of instructions.</li>
+    </ol>
+    </td>
+  </tr>
+</table>
+<table>
+    </body>
+    <table>
+    <table style="width:100%">
+  <tr>
+    <td>Computer Architecture Terms:
+    <ol>
+        <li>RAM:(random access memory) A memory structure in which each cell has an address and it takes the same amount of time to fetch or store any cell./li>
+        <li>cache: A special high-speed memory unit that keeps a copy of memory cells with a high likelihood of access in the near future.</li>
+        <li>Principle of locality: The high likelihood that when a program fetches a piece of data or an instruction:
+            <ol>
+                <li>It will probably use it again very soon.</li>
+                <li>It will probably use the "neighbors" of this item very soon.</li>
+            </ol>
+        </li>
+        <li>ROM:(Read-only memory) A memory structure that can only be accessed, not written into or changed.</li>
+        <li>memory cell size: The number of bits in a single memory cell.</li>
+        <li>memory cell address: The minimum unit of memory access.</li>
+        <li>maximum memory size: The maximum amount of memory that a computer can physically hold.</li>
+        <li>register: Used to implement the fetch and store operations.</li>
+        <li>fetch: Load and decode the address into the MAR then copy the contents of that memory location into the MDR.</li>
+        <li>store: Load the address into the MAR, load the value into the MDR, decode the address in the MAR, then store the contents of the MDR into that memory location.</li>
+        <li>memory access time: The time it takes to fetch or store the contents of a single memory cell.</li>
+        <li>DASD:(direct access storage device) A mass storage device in which each unit of information is associated with a unique address, but the time to access each piece of information may not be the same.</li>
+        <li>Arithmetic and Logic Unit (ALU): A computer subsystem that performs such mathematical and logical operations as addition, subtraction, and comparison for equality.</li>
+        <li>Control Unit: The computer subsystem that fetches and executes instructions stored in the memory of the computer.</li>
+    </ol>
+    </td>
+  </tr>
+</table>
+<table>
+    </body>
+    <table>
+    <table style="width:100%">
+  <tr>
+    <td>Chapter 6: 
+    Four things the interface between the computer and the hardware does:
+    <ol>
+        <li>Hides from the user the messy details of the underlying hardware.</li>
+        <li>Information is presented in a simple way about the internal structure of the system.</li>
+        <li>Resources available on the computer are easier to access for users.</li>
+        <li>Prevents damage to hardware, programs, and data.</li>
+    </ol>
+    </td>
+  </tr>
+  <tr>
+    <td>Responsibilities of system software: 
+    <ol>
+        <li>Hides details that the user does not need to see of the internal structure of the Von Neumann architecture.</li>
+        <li>Presents important information in a way that is simple to understand.</li>
+        <li>An efficent and simplier way for the user to access machine resources.</li>
+        <li>Provides a safe environment that is secure to operate in.</li>
+    </ol>
+    </td>
+  </tr>
+   <tr>
+    <td>Terms: 
+    <ol>
+        <li>System Software: A collection of computer programs that manage the resources of a computer and facilitate access to those resources.</li>
+        <li>User Interface: A visual display that the operating system provides, which is in all modern operating systems.</li>
+        <li>Language Services: Programs called assemblers, compilers, and interpreters, which allow users to write programs in a high-level, user-oriented language.</li>
+        <li>Memory Managers: Programs that allocate memory space for programs and data and retrieve this memory space when it is no longer needed.</li>
+        <li>Information Managers: Programs made to handle the organization, storage, and retrieval of information on storage devices.</li>
+        <li>I/O Managers/Systems: Allow users to easily and efficiently use the many different types of input and output devices that exist on a modern computer system.</li>
+        <li>Scheduler: A Program that keeps a list of programs ready to run on the processor and selects the one that will execute next. The scheduler allows users to have several different programs active at a single time.</li>
+        <li>Utilities: These collections of library routines provide a wide range of useful services either to a user or to other system routines, often organized into collections called "program libraries".</li>
+        <li>Assembly Language: A low-level programming language that maps 1:1 into machine language.</li>
+    </ol>
+    </td>
+  </tr>
+  <tr>
+    <td>Functions of an Operating System: 
+    <ol>
+        <li>User interface management (a receptionist)</li>
+        <li>Control of access to the system and to data files (a security guard)</li>
+        <li>Program scheduling and activation (a dispatcher)</li>
+        <li>Efficient resource allocation (an efficiency expert)</li>
+        <li>Deadlock detection and error detection (a traffic officer)</li>
+    </ol>
+    </td>
+  </tr>
+</table>
+<table>
+    </body>
+    <table border="1" style="text-align:center;" width="560" >
+        <tr style="font-weight: bold; font-size: 120%">
+            <td>Quantity in Bytes </td>
+            <td>Base-10 Value <br /></td>
+            <td>Amount of Textual Information <br /></td>
+        </tr>
+        <tr>
+            <td>1 byte</td>
+            <td>10^0</td>
+            <td>One character.</td>
+
+        </tr>
+        <tr>
+            <td>1 kilobyte</td>
+            <td>10^3</td>
+            <td>One typed page.</td>
+
+        </tr>
+        <tr>
+            <td>1 megabyte</td>
+            <td>10^6</td>
+            <td>Two or three novels.</td>
+
+        </tr>
+        <tr>
+            <td>1 gigabyte</td>
+            <td>10^9</td>
+            <td>A departmental library or a large personal library.</td>
+
+        </tr>
+        <tr>
+            <td>1 terabyte</td>
+            <td>10^12</td>
+            <td>The library of a major academic research university.</td>
+
+        </tr>
+        <tr>
+            <td>1 petabyte</td>
+            <td>10^15</td>
+            <td>All printed material in all libraries in North America.</td>
+
+        </tr>
+        <tr>
+            <td>1 exabyte</td>
+            <td>10^18</td>
+            <td>All words ever printed throughout human history.</td>
+
+        </tr>
+        <tr>
+            <td>1 zettabyte</td>
+            <td>10^21</td>
+            <td>As of 2014, the total amount of information stored globally on the World Wide Web was about 4-5 zettabytes.</td>
+
+        </tr>
+        <tr>
+            <td>1 yottabyte</td>
+            <td>10^24</td>
+            <td>According to an article in Gizmodo, a design and technology blog, storing 1 yottabyte of data on hard drives would require 1 million data centers that would fill the states of Rhode Island and Delaware.</td>
+
+        </tr>
+</table>
+</html>
